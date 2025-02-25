@@ -1,0 +1,55 @@
+.modal_error {
+  background-color: rgba(34, 32, 29, 0.7); /* Semi-transparent background */
+}
+
+.modal_error-content {
+  background-color: #ebeae9;
+  color: #22201d;
+  border-radius: 10px;
+}
+
+.modal_error .modal-header {
+  border-bottom: 1px solid #22201d;
+}
+
+.modal_error .modal-title {
+  color: #22201d;
+}
+
+.modal_error .modal-footer {
+  border-top: 1px solid #22201d;
+}
+
+.modal_error .close {
+  width: 40px;
+  height: 40px;
+  background-color: #22201d;
+  color: #ebeae9;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.modal_error .close:hover {
+  background-color: #22201d;
+  color: white;
+  box-shadow: 0 0 10px #22201d;
+}
+.modal_error .btn-primary {
+  background-color: #22201d;
+  border: none;
+}
+
+.modal_error .btn-primary:hover {
+  background-color: #22201d;
+  color: white;
+  box-shadow: 0 0 10px #22201d;
+}
+
+@media (max-width: 576px) {
+  .modal-dialog {
+    margin: 1rem; /* Ensure the modal doesn't touch the screen edges on mobile */
+  }
+}
