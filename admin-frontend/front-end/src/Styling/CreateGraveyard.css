@@ -1,0 +1,27 @@
+.add-grave-card {
+  height: 500px;
+  overflow-y: auto;
+  border-radius: 8px;
+  margin-top: 10%;
+}
+
+.add-grave-body {
+  padding: 20px;
+}
+
+.add-grave-error {
+  font-size: 0.875rem;
+}
+input:focus,
+textarea:focus {
+  border-color: #22201d !important;
+  box-shadow: 0 0 0 0.2rem rgba(34, 32, 29, 0.25) !important;
+  outline: none !important;
+}
+
+.add-grave-btn {
+  min-width: 100px;
+}
+.button-div {
+  background-color: white;
+}
